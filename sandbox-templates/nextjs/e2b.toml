@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (cohqp4ekaapwfrwum98y) or template name (appsmith-test) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox.create("appsmith-test") # Sync sandbox
+# sandbox = await AsyncSandbox.create("appsmith-test") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('appsmith-test')
+
+team_id = "aa0dda98-1000-42e7-9e93-9a7e43a351d1"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "appsmith-test"
+template_id = "cohqp4ekaapwfrwum98y"
